@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Creator</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul class="navibar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="create.html" class="active">Create a Character</a></li>
+       <li><a href="stories.html">View Stories</a></li>
+    </ul>
+  <h1>Create Your Child's Character</h1>
+
+  <div class="creator-container">
+    <!-- Form -->
+    <div class="form-container">
+      <label>Name: <input type="text" id="name"></label><br>
+      <label>Pronouns:
+        <select id="pronouns">
+          <option value="he">he/him</option>
+          <option value="she">she/her</option>
+          <option value="they">they/them</option>
+        </select><br>
+      </label>
+      <label>Caregiver: <input type="text" id="parentWord"></label><br>
+
+      <label>Skin Tone:
+        <select id="skinTone">
+          <option value="light">Light</option>
+          <option value="med">Medium</option>
+          <option value="drk">Dark</option>
+        </select>
+      </label><br>
+
+      <label>Hair Style:
+        <select id="hairStyle">
+          <option value="sm_str">Short and Straight</option>
+          <option value="sm_curl">Short and Curly</option>
+          <option value="lg_str">Long and Straight</option>
+          <option value="lg_curl">Long and Curly</option>   
+        </select>
+      </label><br>
+
+      <label>Hair Color:
+        <select id="hairColor">
+          <option value="_blnd">Blonde</option>
+          <option value="_brwn">Brown</option>
+          <option value="_blk">Black</option>
+          <option value="_red">Red</option>
+        </select>
+      </label><br>
+
+      <label>Shirt Color:
+        <select id="shirtColor">
+          <option value="blu">Blue</option>
+          <option value="red">Red</option>
+            <option value="grn">Green</option>
+            <option value="yel">Yellow</option>
+            <option value="pnk">Pink</option>
+            <option value="orn">Orange</option>
+        </select>
+      </label><br>
+
+      <button id="saveCharacter">Save Character</button>
+      <!-- DON'T ADD A <BR> HERE, IT BREAKS THE LAYOUT -->
+    </div>
+
+
+    <!-- Preview -->
+    <div class="preview-container">
+      <h2>Preview</h2>
+      <div class="sprite-preview" id="spritePreview">
+        <div class="placeholder">Your character will appear here</div>
+        <!-- Hair -> Shirt -> Body -> Head-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Saved Characters -->
+  <div class="saved-characters">
+    <h2>Saved Characters</h2>
+    <ul id="savedList"></ul>
+  </div>
+
+  <script src="js/characters.js"></script>
+</body>
+</html>

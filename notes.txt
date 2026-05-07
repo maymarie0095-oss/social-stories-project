@@ -1,0 +1,13 @@
+5/6/26 :: HITBOX DIMENSIONS ------------------------------------
+
+hitboxes are 19 x 31 but they are scaled up x10 !!
+preview container is 210 x 350 !!
+
+5/7/26 :: ORDER OF CREATING ART --------------------------------
+
+1 - sprites for character creation
+2 - art for doctor story
+3 - art for dentist story
+4 - sprites for diff poses
+5 - art for website (match style of stories - makes website more fun and interactive)
+6 - art for other stories (airplane, crossing the road, talking to friends, etc)

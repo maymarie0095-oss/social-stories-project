@@ -1,0 +1,29 @@
+3/2/26 :: The project has begun! I have the skeleton of a project.
+            There's a home page where the mission statement and sucess stories/testimals go
+            There's a character creation page with a bunch of options to make the child a character in the story
+
+3/7/26 :: There's a placeholder stories page. I still have to story board all of them
+            and get art made but I'm making good progress :)
+
+3/8/26 :: I made a feedback link and have fleshed out the stories pages. It's all placeholders but it looks really good. 
+
+3/9/26 :: I fleshed out the main page a bit more.
+          There's an about us section with picture of my brothers (who this website was kinda made for)
+
+4/29/26 :: I had to take a break to focus on SAT prep :(
+           The gallery pictures are carefully cropped to square now.
+           The art is gonna be pixel art style bc it's easier and cuter
+
+5/3/26 :: God I hate pixel art
+          I made the the heads, bodies, and shirts.
+          I cropped all of them and that took 30 minutes
+
+5/5/26 :: Implementing all the pixel art!!! (I'm gonna crash out)
+
+5/6/26 :: I need to crop everything in the same hitbox and upscale everything as well.
+          Hitbox should be the size of the head and the body combined, then all of the pieces will sit relative to
+          the body in that hitbox.
+
+5/7/26 :: Hitboxes are fixed, and everything is upscaled very neatly. I can begin work on the stories and the according art. 
+          There's prlly gonna be a pose system used later on, but for right now, the pixel art is taking forever.
+          I need to figure out how to get the pictures to not lead to things.
