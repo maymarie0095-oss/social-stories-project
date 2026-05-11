@@ -11,3 +11,8 @@ preview container is 210 x 350 !!
 4 - sprites for diff poses
 5 - art for website (match style of stories - makes website more fun and interactive)
 6 - art for other stories (airplane, crossing the road, talking to friends, etc)
+
+5/7/26 :: TO DO -------------------------------------------------------------------------
+
+- purple hair
+- haircolor picker with hex?

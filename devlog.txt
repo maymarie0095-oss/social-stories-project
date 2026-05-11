@@ -27,3 +27,9 @@
 5/7/26 :: Hitboxes are fixed, and everything is upscaled very neatly. I can begin work on the stories and the according art. 
           There's prlly gonna be a pose system used later on, but for right now, the pixel art is taking forever.
           I need to figure out how to get the pictures to not lead to things.
+
+5/8/26 :: YAY pixel art!! I've decided to go with a retro, but easy toread layout to make the website more fun. There will be a kids (fun, jungle mode) 
+          and adults, (monochrome, simple) mode
+        
+5/11/26 :: consistent work on the webpage yippee!! i need to figure out the code to get the previews for the stories and
+           the export to pdf code.

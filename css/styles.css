@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", Arial, sans-serif;
   margin: 20px;
-  background-color: #fff;
+  background-image: 'assets/decor/kid_bg.png';
 }
 
 .creator-container {
@@ -14,8 +14,6 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
-
-
 
 .sprite-preview {
   width: 210px;
@@ -59,7 +57,7 @@ body {
   background-color: #8fcb9b;
 }
 
-div.story_gallery {
+div.story_gallery{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -71,25 +69,26 @@ div.story {
   width: 180px;
 }
 
-div.story:hover {
+div.story_main {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+div.story:hover, div.story_main:hover {
   border: 1px solid #777;
 }
 
-div.story img {
+div.story img, div.story_main img {
   width: 100%;
   height: auto;
 }
 
-div.story div.desc {
+div.story div.desc, div.story_main div.desc {
   padding: 15px;
   text-align: center;
 }
 
-a.feedback_link {
-  color: black;
-  text-decoration: none; 
-  font-size: x-small;
-}
 .photo_gallery {
   display: flex;
   flex-wrap: wrap;
