@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", Arial, sans-serif;
   margin: 20px;
-  background-image: 'assets/decor/kid_bg.png';
+  background-image: url('assets/decor/kid_bg.png');
 }
 
 .creator-container {
@@ -97,5 +97,6 @@ div.story div.desc, div.story_main div.desc {
 
 .photo_gallery div.gallery_item {
   margin: 5px;
+  border-image: url('assets/decor/kid_frame.png');
 }
 
