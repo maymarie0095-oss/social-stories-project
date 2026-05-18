@@ -15,6 +15,15 @@ function updateSavedList() {
     selectBtn.onclick = () => loadCharacter(char);
     li.appendChild(selectBtn);
 
+    const storyBtn = document.createElement("button");
+    storyBtn.textContent = "Use in Story";
+    storyBtn.style.marginLeft = "5px";
+    storyBtn.onclick = () => {
+      localStorage.setItem("currentCharacter", JSON.stringify(char));
+      window.location.href = "stories.html";
+    };
+    li.appendChild(storyBtn);
+
     // Delete button
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
@@ -28,6 +37,8 @@ function updateSavedList() {
 
     list.appendChild(li);
   });
+
+
 }
 
 // Save Character
@@ -80,12 +91,6 @@ function deleteCharacter(index) {
 
 // Update Preview (placeholder text for now; replace with your sprite layers)
 function updatePreview(char) {
-
-  const short_hairs = ["sm_str_bld", "sm_str_red", "sm_str_brwn", "sm_str_blk", "sm_curl_bld", "sm_curl_red", "sm_curl_brwn", "sm_curl_blk"];
-  const long_hairs = ["lg_str_bld", "lg_str_red", "lg_str_brwn", "lg_str_blk", "lg_curl_bld", "lg_curl_red", "lg_curl_brwn", "lg_curl_blk"];
-  const shirts = ["reg_blue", "reg_red", "reg_grn", "reg_yel", "reg_pnk", "reg_orn"];
-  const bodies = ["standing_light", "standing_med", "standing_dark"];
-  const heads = ["light_head", "med_head", "drk_head"];
 
   //everything is *8 of the original size to maintain scaling
   const preview = document.getElementById("spritePreview");

@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Going to the dentist</title>
-    <link rel="icon" type="image/x-icon" href="assets/thumbnails/favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <title>Social Story</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <p>pssst... there's supposed to be something here</p>
-    
-    <div class="story_controls">
-        <button id="prev">Previous Page</button>
-        <button id="next">Next Page</button>
-    </div>
+  <script src="js/theme.js"></script>
+  <h1>Choose a Story</h1>
+
+  <select id="storySelect">
+    <option value="dentist">Going to the Dentist</option>
+  </select>
+
+  <button id="startStory">Start Story</button>
+
+  <div id="storyViewer" class="story-viewer" style="display:none;">
+    <div id="storyText"></div>
+
+    <button id="backBtn">Back</button>
+    <button id="nextBtn">Next</button>
+    <button id="printBtn">Print / Save as PDF</button>
+  </div>
+
+  <script src="js/stories.js"></script>
+  <script src="js/viewer.js"></script>
 </body>
 </html>
