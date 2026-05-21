@@ -33,3 +33,6 @@
         
 5/11/26 :: consistent work on the webpage yippee!! i need to figure out the code to get the previews for the stories and
            the export to pdf code.
+
+5/21/26 :: the preivew works. it has text but no images yet and yoyu can export each slide as a story. the formatting one the website is much better and looks much
+           cleaner. there are a lot of small visual things that need fixing.
