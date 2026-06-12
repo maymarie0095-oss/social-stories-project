@@ -16,3 +16,20 @@ preview container is 210 x 350 !!
 
 - purple hair
 - haircolor picker with hex?
+
+6/10/26 :: TO DO -----------------------------------------------------------------------
+
+- fix all the borders and things that don't change themes
+    - big story borders on index.html
+    - about us border NEED TO FIX PADDING AS well
+    - small story thumbnails on view stories page
+
+- get art drawn for the dentist story
+- figure out how to add characters to the story
+- figure out when to have this done body
+
+6/10/26 :: CUT LIST -----------------------------------------------------------
+things to cut if i have to have this done sooner than i'd like
+
+- theme switcher (all adult theme)
+- more than dentist story

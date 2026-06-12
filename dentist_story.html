@@ -6,14 +6,16 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <script src="js/theme.js"></script>
-  <h1>Choose a Story</h1>
-
-  <select id="storySelect">
+  
+  <div class = "dentist_header">
+    <h4>Choose a Story</h1>
+  </div>
+  
+  <select id="storySelect" class = "story_select">
     <option value="dentist">Going to the Dentist</option>
   </select>
 
-  <button id="startStory">Start Story</button>
+  <button id="startStory" class = "start_story">Start Story</button>
 
   <div id="storyViewer" class="story-viewer" style="display:none;">
     <div id="storyText"></div>
@@ -25,5 +27,6 @@
 
   <script src="js/stories.js"></script>
   <script src="js/viewer.js"></script>
+  <script src="js/theme.js"></script>
 </body>
 </html>

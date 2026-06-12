@@ -18,7 +18,8 @@ body {
 .form-container, .preview-container {
   border: 2px solid #8f8073;
   padding: 20px;
-  border-radius: 10px;
+  margin: 15px;
+  
 }
 
 .sprite-preview {
@@ -115,7 +116,6 @@ div.story div.desc, div.story_main div.desc {
 .story-viewer button {
   margin: 10px;
   padding: 10px 18px;
-  border-radius: 10px;
 }
 
 @media print {
@@ -205,11 +205,11 @@ button {
 .kids-theme .form-container,
 .kids-theme .preview-container,
 .kids-theme .saved-characters {
-  border: 24px solid transparent;
+  
   border-image-source: url("../assets/decor/kids_story_frame.png");
   border-image-slice: 24;
   border-image-repeat: round;
-  background: var(--panel);
+  background: url("../assets/decor/kid_bg.png");
 }
 
 .adult-theme .navibar {
@@ -262,19 +262,25 @@ button {
 }
 
 .about_us .text_block,
-.story_main{
+.story_main,
+.story_gallery .story{
   border-top: 3px solid white;
   border-left: 3px solid white;
   border-right: 3px solid #404040;
   border-bottom: 3px solid #404040;
   box-shadow: inset -2px -2px #808080, inset 2px 2px #dfdfdf;
-  margin:  5px;
+  padding:  5px;
 
 }
 
-h3.create_title{
-  margin: 5px;
-  
+div.dentist_header,
+.story_select,
+.start_story,
+.stories_header,
+.create_title{
+  padding: 15px;
+  margin: 10px;
+
 }
 
 
